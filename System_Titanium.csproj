@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EB5EC68E-BC06-4AE4-8DE7-2C6BE41A2D74}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>System_Titanium</RootNamespace>
+    <AssemblyName>System_Titanium</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>System_Titanium.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>packages\Portable.BouncyCastle.1.9.0\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="iTextSharp.LGPLv2.Core, Version=1.9.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\iTextSharp.LGPLv2.Core.1.9.2\lib\net462\iTextSharp.LGPLv2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\CrudArea.cs" />
+    <Compile Include="Business\CrudCaja.cs" />
+    <Compile Include="Business\CrudProductos.cs" />
+    <Compile Include="Business\CrudSocios.cs" />
+    <Compile Include="Business\CrudUsers.cs" />
+    <Compile Include="Business\CrudVentas.cs" />
+    <Compile Include="Business\CrudVisitas.cs" />
+    <Compile Include="Business\Reportes.cs" />
+    <Compile Include="Date\Conexion.cs" />
+    <Compile Include="Microsoft\VisualBasic\FileIO.cs" />
+    <Compile Include="Presentation\frmAgregarMensu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmAgregarMensu.Designer.cs">
+      <DependentUpon>frmAgregarMensu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmAjustAreas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmAjustAreas.Designer.cs">
+      <DependentUpon>frmAjustAreas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmAjustesCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmAjustesCaja.Designer.cs">
+      <DependentUpon>frmAjustesCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmAjustesSist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmAjustesSist.Designer.cs">
+      <DependentUpon>frmAjustesSist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmCalculadora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmCalculadora.Designer.cs">
+      <DependentUpon>frmCalculadora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmCorteCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmCorteCaja.Designer.cs">
+      <DependentUpon>frmCorteCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmCrudClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmCrudClientes.Designer.cs">
+      <DependentUpon>frmCrudClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmMovCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmMovCaja.Designer.cs">
+      <DependentUpon>frmMovCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmPagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmPagar.Designer.cs">
+      <DependentUpon>frmPagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmBuys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmBuys.Designer.cs">
+      <DependentUpon>frmBuys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmClientes.Designer.cs">
+      <DependentUpon>frmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmCRUDUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmCRUDUsers.Designer.cs">
+      <DependentUpon>frmCRUDUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmDevelopers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmDevelopers.Designer.cs">
+      <DependentUpon>frmDevelopers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmEditarPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmEditarPerfil.Designer.cs">
+      <DependentUpon>frmEditarPerfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmHistorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmHistorial.Designer.cs">
+      <DependentUpon>frmHistorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmLoguin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmLoguin.Designer.cs">
+      <DependentUpon>frmLoguin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmUpdCant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmUpdCant.Designer.cs">
+      <DependentUpon>frmUpdCant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmVentas.Designer.cs">
+      <DependentUpon>frmVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmVentasDia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmVentasDia.Designer.cs">
+      <DependentUpon>frmVentasDia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmVisitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmVisitas.Designer.cs">
+      <DependentUpon>frmVisitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmWebCam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmWebCam.Designer.cs">
+      <DependentUpon>frmWebCam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\Global.cs" />
+    <Compile Include="Presentation\IComprasUPDATE.cs" />
+    <Compile Include="Presentation\IContract.cs" />
+    <Compile Include="Presentation\ValidacionesNum.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reportes\ReportCaja.cs" />
+    <Compile Include="Reportes\ReportGeneral.cs" />
+    <Compile Include="usersControl\uCtrl_Encabezado.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usersControl\uCtrl_Encabezado.Designer.cs">
+      <DependentUpon>uCtrl_Encabezado.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Presentation\frmAgregarMensu.resx">
+      <DependentUpon>frmAgregarMensu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmAjustAreas.resx">
+      <DependentUpon>frmAjustAreas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmAjustesCaja.resx">
+      <DependentUpon>frmAjustesCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmAjustesSist.resx">
+      <DependentUpon>frmAjustesSist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmCalculadora.resx">
+      <DependentUpon>frmCalculadora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmCorteCaja.resx">
+      <DependentUpon>frmCorteCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmCrudClientes.resx">
+      <DependentUpon>frmCrudClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmMovCaja.resx">
+      <DependentUpon>frmMovCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmPagar.resx">
+      <DependentUpon>frmPagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmBuys.resx">
+      <DependentUpon>frmBuys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmClientes.resx">
+      <DependentUpon>frmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmCRUDUsers.resx">
+      <DependentUpon>frmCRUDUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmDevelopers.resx">
+      <DependentUpon>frmDevelopers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmEditarPerfil.resx">
+      <DependentUpon>frmEditarPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmHistorial.resx">
+      <DependentUpon>frmHistorial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmLoguin.resx">
+      <DependentUpon>frmLoguin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmUpdCant.resx">
+      <DependentUpon>frmUpdCant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmVentas.resx">
+      <DependentUpon>frmVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmVentasDia.resx">
+      <DependentUpon>frmVentasDia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmVisitas.resx">
+      <DependentUpon>frmVisitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmWebCam.resx">
+      <DependentUpon>frmWebCam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="usersControl\uCtrl_Encabezado.resx">
+      <DependentUpon>uCtrl_Encabezado.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include=".editorconfig" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\image\1345472.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,62 @@
+C:\Users\SoyFer\Documents\GYM\System_Titanium\bin\Debug\System_Titanium.exe.config
+C:\Users\SoyFer\Documents\GYM\System_Titanium\bin\Debug\System_Titanium.exe
+C:\Users\SoyFer\Documents\GYM\System_Titanium\bin\Debug\System_Titanium.pdb
+C:\Users\SoyFer\Documents\GYM\System_Titanium\obj\Debug\System_Titanium.csproj.AssemblyReference.cache
+C:\Users\SoyFer\Documents\GYM\System_Titanium\obj\Debug\System_Titanium.Properties.Resources.resources
+C:\Users\SoyFer\Documents\GYM\System_Titanium\obj\Debug\System_Titanium.csproj.GenerateResource.cache
+C:\Users\SoyFer\Documents\GYM\System_Titanium\obj\Debug\System_Titanium.csproj.CoreCompileInputs.cache
+C:\Users\SoyFer\Documents\GYM\System_Titanium\obj\Debug\System_Titanium.exe
+C:\Users\SoyFer\Documents\GYM\System_Titanium\obj\Debug\System_Titanium.pdb
+C:\Users\SoyFer\Documents\GYM\System_Titanium\obj\Debug\System_Titanium.frmLoguin.resources
+C:\Users\SoyFer\Documents\GYM\System_Titanium\obj\Debug\System_Titanium.frmMain.resources
+C:\Users\SoyFer\Documents\GYM\System_Titanium\obj\Debug\System_Titanium.usersControl.uCtrl_Encabezado.resources
+C:\Users\SoyFer\Documents\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmEditarPerfil.resources
+C:\Users\SoyFer\Documents\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmCRUDUsers.resources
+C:\Users\SoyFer\Documents\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmClientes.resources
+C:\Users\SoyFer\Documents\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmBuys.resources
+C:\Users\SoyFer\Documents\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmVisitas.resources
+C:\Users\SoyFer\Documents\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmDevelopers.resources
+C:\Users\SoyFer\Documents\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmHistorial.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\bin\Debug\System_Titanium.exe.config
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\bin\Debug\System_Titanium.exe
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\bin\Debug\System_Titanium.pdb
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.csproj.AssemblyReference.cache
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmBuys.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmClientes.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmCRUDUsers.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmDevelopers.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmEditarPerfil.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmHistorial.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.frmLoguin.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.frmMain.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmVisitas.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Properties.Resources.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.usersControl.uCtrl_Encabezado.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.csproj.GenerateResource.cache
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.csproj.CoreCompileInputs.cache
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.exe
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.pdb
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmVentas.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmPagar.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmUpdCant.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmCrudClientes.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmAgregarMensu.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmCalculadora.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmCorteCaja.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmAjustesCaja.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmVentasDia.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\bin\Debug\AForge.dll
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\bin\Debug\AForge.Video.dll
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\bin\Debug\AForge.xml
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\bin\Debug\AForge.Video.xml
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmWebCam.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.csproj.CopyComplete
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmMovCaja.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\bin\Debug\iTextSharp.LGPLv2.Core.dll
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\bin\Debug\iTextSharp.LGPLv2.Core.xml
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmAjustesSist.resources
+C:\Users\SoyFer\Documents\PROYECTIOS PERSONALES\GYM\System_Titanium\obj\Debug\System_Titanium.Presentation.frmAjustAreas.resources
